@@ -1,11 +1,13 @@
 require("catppuccin").setup({
 	flavour = "mocha",
-	transparent_background = false,
+	transparent_background = true,
 	integrations = {
 		cmp = true,
 		treesitter = true,
+		harpoon = true,
 		telescope = {
 			enabled = true,
+			-- style = "nvchad"
 		},
 		native_lsp = {
 			enabled = true,

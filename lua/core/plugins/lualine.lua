@@ -1,6 +1,7 @@
 local custom_auto = require'lualine.themes.auto'
 local mocha = require("catppuccin.palettes").get_palette "mocha"
 
+-- Change the background of lualine_c section for normal mode
 custom_auto.inactive.c.bg = mocha.crust
 custom_auto.normal.c.bg = mocha.mantle
 
